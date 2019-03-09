@@ -1,9 +1,5 @@
 import React, {Component} from 'react'
 
-export default class TopicDetail extends Component{
-    render(){
-        return(
-            <div>this is topic detail</div>
-        )
-    }
-}
+export const TopicDetail = props => (
+    <div>thsi is the topic detail</div>
+)
